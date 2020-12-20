@@ -30,8 +30,8 @@ public class Main {
         VertexFactory<DefaultVertex> vertexFactory = new DefaultVertexFactory();
 
         //добавление истока и стока
-        s = vertexFactory.createVertex("s");
-        t = vertexFactory.createVertex("t");
+        s = vertexFactory.createVertex("s2");
+        t = vertexFactory.createVertex("t2");
         graph.addVertex(s);
         graph.addVertex(t);
 
